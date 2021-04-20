@@ -51,9 +51,10 @@
     </section>
 
     <!-- Hold Footer with Menu -->
-<?php require($_SERVER['DOCUMENT_ROOT'].'/_partials/footer.php');?>
-<?php require($_SERVER['DOCUMENT_ROOT'].'/scripts/paths.php');?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/_partials/footer.php'); ?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/scripts/paths.php'); ?>
     <script src="/js/nav.js"></script>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/scripts/contact_event.php'); ?>
 </body>
 
 </html>

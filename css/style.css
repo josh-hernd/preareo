@@ -581,9 +581,9 @@ footer {
     .user_log {
         display: none;
     }
-    .mob_menu .user_log{
-      display: none;
-    }
+    .mob_menu .user_log {
+      display: block;
+  }
     .user_log ul{
       display: block;
     }

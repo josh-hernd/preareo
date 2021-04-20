@@ -3,17 +3,17 @@
 
 <?php $titl = "PreAreo | Short Sale Experts"; ?>
 
-<?php require($_SERVER['DOCUMENT_ROOT'].'/_partials/head.php') ?>
+<?php require($_SERVER['DOCUMENT_ROOT'] . '/_partials/head.php') ?>
 
 <body>
     <!-- Hold Header with Navigation Bar -->
- <?php require($_SERVER['DOCUMENT_ROOT'].'/_partials/navbar.php');?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/_partials/navbar.php'); ?>
     <!-- Hold Main Content -->
     <section id="main" class="main">
         <!--<div class="content welcome">-->
         <!--    <h1>"Everyone deserves <br> a second chance"</h1>-->
         <!--</div>-->
-          <!--Foreclose Section-->
+        <!--Foreclose Section-->
         <div class="maincont">
             <div class="foreclose">
                 <div class="halfs">
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-           
+
         <!-- Hold Consultation Section -->
         <div class="content">
             <div class="consult">
@@ -69,10 +69,11 @@
     </section>
 
     <!-- Hold Footer with Menu -->
- <?php require($_SERVER['DOCUMENT_ROOT'].'/_partials/footer.php');?>
-
- <?php require($_SERVER['DOCUMENT_ROOT'].'/scripts/paths.php');?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/_partials/footer.php'); ?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/scripts/paths.php'); ?>
     <script src="/js/nav.js"></script>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/scripts/contact_event.php'); ?>
+
 </body>
 
 </html>

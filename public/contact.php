@@ -100,30 +100,10 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['submit']))
     </section>
 
     <!-- Hold Footer with Menu -->
-<?php require($_SERVER['DOCUMENT_ROOT'].'/_partials/footer.php');?>
-<?php require($_SERVER['DOCUMENT_ROOT'].'/scripts/paths.php');?>
-<script src="/js/nav.js"></script>
-<?php 
-    $phone = 'tel:5169625146';
-    $mai = 'mailto:info@preareo.com';
-?>
-<script>
-    let phon = document.querySelectorAll('.phnBtn');
-    let email = document.getElementById('emailBtn');
-
-    if (phon !== null || email !== null){
-    
-    phon.forEach(btn => { btn.addEventListener("click", event => { 
-        location.href = "<?php echo $phone; ?>";
-    })
-    });
-
-
-    email.addEventListener("click", function(){
-       location.href = "<?php echo $mai; ?>";
-    });
-    }
-</script>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/_partials/footer.php'); ?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/scripts/paths.php'); ?>
+    <script src="/js/nav.js"></script>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . '/scripts/contact_event.php'); ?>
   <style>
         input[type="text"], input[type="number"], input[type="email"], input[type="password"] {border:none;padding-left: 50px;}
     </style>
