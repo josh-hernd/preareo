@@ -1,0 +1,4 @@
+ <script type="text/JavaScript">
+ 	alert("Access Denied!");
+      setTimeout("location.href = '/';",1000);
+ </script>

@@ -1,0 +1,38 @@
+<svg width="216" height="214" viewBox="0 0 216 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>.ditter { -webkit-animation: ditter 9s infinite ease-in-out; animation: ditter 9s infinite ease-in-out; -webkit-transform-origin: 46.9% 50.3%; -ms-transform-origin: 46.9% 50.3%; transform-origin: 46.9% 50.3%; } .clipper { -webkit-clip-path: url(#clipPath); clip-path: url(#clipPath); } .dup { -webkit-transform:rotate(180deg); -ms-transform:rotate(180deg); transform:rotate(180deg); -webkit-transform-origin: 46.9% 50.3%; -ms-transform-origin: 46.9% 50.3%; transform-origin: 46.9% 50.3%; } @-webkit-keyframes ditter { 0% {  opacity:1; -webkit-transform: rotateZ(0deg); transform: rotateZ(0deg); } 10% { opacity:0; } 20%{ opacity:1; } 40%{ opacity:0; } 50% { opacity:1; -webkit-transform: rotateZ(180deg); transform: rotateZ(180deg); } 60%{ opacity:0;} 70%{ opacity:1;} 80%{ opacity:0;} 90%{ opacity:1;} 100% { opacity:0; -webkit-transform: rotateZ(360deg); transform: rotateZ(360deg); } } @keyframes ditter { 0% {  opacity:1; -webkit-transform: rotateZ(0deg); transform: rotateZ(0deg); } 10% { opacity:0; } 20%{ opacity:1; } 40%{ opacity:0; } 50% { opacity:1; -webkit-transform: rotateZ(180deg); transform: rotateZ(180deg); } 60%{ opacity:0;} 70%{ opacity:1;} 80%{ opacity:0;} 90%{ opacity:1;} 100% { opacity:0; -webkit-transform: rotateZ(360deg); transform: rotateZ(360deg); } }</style>
+<path d="M139.53 137.73C142.09 154.107 137.313 167.719 123.835 177.323C110.55 186.803 96.067 187.494 81.9419 179.258C67.6241 170.911 61.5666 157.782 62.723 141.282C62.8882 139.016 63.1223 137.026 66.3576 137.04C90.2573 137.164 114.157 137.15 138.057 137.205C138.332 137.205 138.621 137.399 139.53 137.73ZM77.2611 159.745C83.6628 169.018 91.8405 173.454 102.166 173.177C111.858 172.915 119.609 168.603 125.419 159.745C109.173 159.745 93.7404 159.745 77.2611 159.745Z" fill="#3F9CAD"/>
+<path d="M106.103 132.99C103.419 132.99 99.5363 132.99 96.6452 132.99C93.2998 127.808 90.4225 123.082 87.2561 118.549C82.1347 111.225 83.2223 100.943 89.9407 95.0837C96.6865 89.2104 106.447 89.3072 113.056 95.3186C119.815 101.468 120.669 111.335 115.341 118.77C112.216 123.151 109.462 127.794 106.103 132.99ZM101.409 124.865C106.186 124.63 106.172 124.616 108.884 120.774C109.6 119.751 110.467 118.839 111.28 117.886C116.153 112.317 116.552 105.421 112.312 99.8238C108.402 94.6553 101.354 92.9555 95.4613 95.747C89.6653 98.4971 85.9757 105.186 88.1922 111.418C89.803 115.979 93.0796 120.042 96.1083 123.925C96.9343 124.975 99.5914 124.588 101.409 124.865Z" fill="#EE8430"/>
+<path d="M102.29 99.0637C96.9619 100.211 93.7954 103.32 93.052 109.359C90.6152 103.182 95.4337 98.0272 102.29 99.0637Z" fill="#EE8430"/>
+  
+   <defs>
+      <clipPath id="clipPath">
+          <rect x="27" y="35" width="150" height="100" fill="#000"/>
+      </clipPath>
+  </defs>
+ <g class="clipper">
+<path class="ditter" d="M126.974 107.148L173.466 107.618" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M126.974 101.496L143.88 95.83" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M124.152 94.8902L139.186 85.4653" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M120.407 89.2381L142.008 66.6018" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M114.763 85.4654L123.216 70.3745" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M112.89 65.6621L109.132 82.6324" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M100.679 81.6926L101.615 35.4942" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M94.0983 82.6324L89.4037 64.7224" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M79.0784 69.4348L88.4676 85.4654" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M82.8368 89.2381L60.3 66.6018" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M78.1422 94.8902L63.1085 86.4051" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M76.2561 101.496L58.4139 95.83" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M75.32 108.088H28.3603" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M76.2561 114.693L59.3501 119.406" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M79.0784 121.285L63.1085 129.77" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M124.152 121.285L139.186 129.77" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M126.974 114.693L143.88 119.406" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+  <g class="dup">
+<path class="ditter" d="M120.407 89.2381L142.008 66.6018" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M114.763 85.4654L123.216 70.3745" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M112.89 65.6621L109.132 82.6324" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M100.679 81.6926L101.615 35.4942" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M94.0983 82.6324L89.4037 64.7224" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M79.0784 69.4348L88.4676 85.4654" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+<path class="ditter" d="M82.8368 89.2381L60.3 66.6018" stroke="#EE8430" stroke-width="2" stroke-miterlimit="10"/>
+</g></g></svg>
