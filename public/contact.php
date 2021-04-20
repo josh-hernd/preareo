@@ -58,7 +58,7 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['submit']))
                 <div style="text-align: center;">
                     <button class="phnBtn">Call Us</button>
                     <button id="emailBtn">E-Mail Us</button>
-                    <a href="https://goo.gl/maps/sDe8i4gAGq8vWMZYA" target="_blank"><button><span><img src="/images/icons/location.png"></span> Visit Us</button></a>
+                    <a href="https://goo.gl/maps/H7hfVKKRWweSo5RA9" target="_blank"><button><span><img src="/images/icons/location.png"></span> Visit Us</button></a>
                 </div>
             </div>
 
