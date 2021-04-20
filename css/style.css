@@ -11,6 +11,7 @@
   --mainCont: 7% 5%;
   --padding: 10px;
   --backColor: #fffcfc;
+  --rem: 1.4rem;
 }
 p {
   font-family: DM Sans;
@@ -71,7 +72,7 @@ header {
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: var(--rem);
   line-height: 31px;
   color: #676a6f;
 }
@@ -81,6 +82,25 @@ header {
   width: max-content;
   padding: var(--padding);
   margin-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  align-items: center;
+}
+.user_log ul button{
+  cursor: pointer;
+    background: #3F9CAD;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    font-family: DM Sans;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--rem);
+    line-height: 33px;
 }
 .follow {
     display: grid;
@@ -156,7 +176,7 @@ header {
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: var(--rem);
   line-height: 31px;
   color: #676a6f;
 }
@@ -192,7 +212,7 @@ header {
   text-align: center;
 }
 .mob_menu .user_log ul li a{
-  font-size: large;
+  font-size: 1.5rem;
 }
 
 /* Main Content Styling */
@@ -561,6 +581,12 @@ footer {
     .user_log {
         display: none;
     }
+    .mob_menu .user_log{
+      display: none;
+    }
+    .user_log ul{
+      display: block;
+    }
   .button {
     padding: calc(var(--padding) + 10px) 20px;
   }
@@ -579,6 +605,9 @@ footer {
   }
   .toggle_menu {
       display: block;
+  }
+  .user_log ul{
+    display: block;
   }
   .mob_menu .user_log{
     display: block;
@@ -632,6 +661,9 @@ h2 {
   .full_menu,
   .user_log {
       display: none;
+  }
+  .user_log ul{
+    display: block;
   }
   .toggle_menu {
       display: block;
@@ -715,6 +747,9 @@ input[type="submit"] {
     .full_menu,
     .user_log {
         display: none;
+    }
+    .user_log ul{
+      display: block;
     }
     .toggle_menu {
         display: block;

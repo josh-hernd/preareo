@@ -20,7 +20,7 @@
                     <h2>Are you facing a foreclosure and hoping for a way out?</h2>
                     <p>A Short Sale may be at your advantage! We are Short Sale Experts who can help you and your lender
                         identify your best options.</p>
-                    <div class="button_wrapper"><a href="/public/contact.php" class="button">Learn More</a></div>
+                    <div class="button_wrapper"><a href="/public/learn-more.php" class="button">Learn More</a></div>
                 </div>
                 <div class="halfs"><object data="/images/foreclosure-help.svg" type=""></object></div>
             </div>

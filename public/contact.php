@@ -56,8 +56,8 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['submit']))
             <div class="wrap_form">
                 <h2>Contact Us</h2>
                 <div style="text-align: center;">
-                    <button>Call Us</button>
-                    <button>E-Mail Us</button>
+                    <button class="phnBtn">Call Us</button>
+                    <button id="emailBtn">E-Mail Us</button>
                     <a href="https://goo.gl/maps/sDe8i4gAGq8vWMZYA" target="_blank"><button><span><img src="/images/icons/location.png"></span> Visit Us</button></a>
                 </div>
             </div>
@@ -108,13 +108,16 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['submit']))
     $mai = 'mailto:info@preareo.com';
 ?>
 <script>
-    let phon = document.querySelector('.wrap_form button:nth-child(1)');
-    let email = document.querySelector('.wrap_form button:nth-child(2)');
+    let phon = document.querySelectorAll('.phnBtn');
+    let email = document.getElementById('emailBtn');
 
     if (phon !== null || email !== null){
-        phon.addEventListener("click", function(){
-       location.href = "<?php echo $phone; ?>";
+    
+    phon.forEach(btn => { btn.addEventListener("click", event => { 
+        location.href = "<?php echo $phone; ?>";
+    })
     });
+
 
     email.addEventListener("click", function(){
        location.href = "<?php echo $mai; ?>";
