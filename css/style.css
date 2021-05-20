@@ -102,6 +102,10 @@ header {
     font-size: var(--rem);
     line-height: 33px;
 }
+ul li button.phnBtn a {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
 .follow {
     display: grid;
     align-items: center;
@@ -212,7 +216,7 @@ header {
   text-align: center;
 }
 .mob_menu .user_log ul li a{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /* Main Content Styling */
@@ -401,7 +405,7 @@ font-weight: normal;
 font-size: 25px;
 line-height: 33px;
 }
-.wrap_form button:nth-child(-n + 2) {
+.wrap_form button:nth-child(-n + 2), .wrap_form a button.phnBtn {
 cursor:pointer;
 background: #3F9CAD;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);

@@ -56,7 +56,7 @@ if (isset($_REQUEST['email']) && isset($_REQUEST['submit']))
             <div class="wrap_form">
                 <h2>Contact Us</h2>
                 <div style="text-align: center;">
-                    <button class="phnBtn">Call Us</button>
+                <a href="tel:5169625146"><button class="phnBtn">516-9625-146</button></a>
                     <button id="emailBtn">E-Mail Us</button>
                     <a href="https://goo.gl/maps/H7hfVKKRWweSo5RA9" target="_blank"><button><span><img src="/images/icons/location.png"></span> Visit Us</button></a>
                 </div>

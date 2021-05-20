@@ -9,7 +9,7 @@
             <div id='main_menu' class='full_menu'></div>
             <div id='user_login' class='user_log'>
                 <ul>
-                    <li><button class="phnBtn">Call Us</button></li>
+                <li><button class="phnBtn"><a href="tel:5169625146">516-9625-146</a></button></li>
                     <li><a href='https://member.preareo.com/'>Sign up or Log in</a></li>
                 </ul>
             </div>
@@ -29,7 +29,7 @@
                 <div id='mobile_menu' class='mob_menu'>
                     <div id='user_login' class='user_log'>
                         <ul>
-                        <li><button class="phnBtn">Call Us</button></li>
+                        <li><button class="phnBtn"><a href="tel:5169625146">516-9625-146</a></button></li>
                             <li><a href='https://member.preareo.com/'>Sign up or Log in</a></li>
                         </ul>
                     </div>
